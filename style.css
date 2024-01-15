@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+main,
+section,
+footer {
+    width: 100%;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+    padding: 10px 20px;
+    background: whitesmoke;
+}
+
+.header_items {
+    text-align: center;
+}
+
+h3 {
+    display: flex;
+    justify-content: start;
+}
+
+h4,
+p {
+    color: grey;
+
+}
+
+.checkbox p {
+    margin: 0;
+}
+
+.age :nth-child(1) {
+    margin-bottom: 15px;
+}
+
+.checkbox input {
+    margin: 0;
+    margin-right: 5px;
+}
+
+.profile {
+    display: grid;
+}
+
+form span {
+    text-align: center;
+    color: white;
+    background: green;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.btn button {
+    width: 460px;
+    height: 55px;
+    color: white;
+    background: green;
+
+}
+
+.input_basic {
+    width: 460px;
+    height: 40px;
+    background: rgb(207, 203, 203);
+    border: transparent;
+}
+
+.input_bio {
+    width: 460px;
+    height: 55px;
+    background: rgb(207, 203, 203);
+    border: transparent;
+}
+
+.profile select {
+    width: 460px;
+    height: 30px;
+    background: rgb(207, 203, 203);
+    border: transparent;
+}
